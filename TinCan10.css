@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*
+Navbar
+*/
+
+body {
+    background-color: darkgrey;
+}
+
+.navbar {
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+.navbar a {
+    float:left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: gray;
+    color: cyan;
+}
+
+.navbar a:active {
+    background-color: gray;
+    color: yellow;
+}
+
+/*
+Work Experience
+*/
+
+.job {
+    overflow: hidden;
+    padding: 16px;
+}
+
+.floatLeft {
+    float: left;
+    margin: 10px 10px;
+}
+
+
+b {
+    padding: 8px;
+}
+
+ul {
+    overflow: hidden;
+}
+
+
+/*
+Projects
+*/
+
+.project {
+    overflow: hidden;
+    padding: 16px;
+}
